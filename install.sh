@@ -1,6 +1,8 @@
 #!/bin/sh
 DST="$HOME/.bintoolz/"
 
+echo "Removing old $DST..."
+rm -r "$DST"
 # Make sure directory exists
 echo "Creating directory $DST..."
 mkdir -p $DST
@@ -8,6 +10,9 @@ mkdir -p $DST
 echo "Copying files..."
 cp ./version $DST
 cp ./bashrc $DST
+cp ./btz-payload-32 $DST
+cp ./btz-payload-64 $DST
+cp -R ./internal $DST
 
 echo "Done"
 
