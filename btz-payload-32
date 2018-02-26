@@ -1,0 +1,2 @@
+#!/bin/sh
+$HOME/.bintoolz/internal/make-payload $1 $2 elf32
