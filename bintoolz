@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/bin/bash --rcfile /usr/share/bintoolz/bashrc
+
